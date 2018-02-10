@@ -22,7 +22,7 @@ import UIKit
 ///
 /// Also look at LandscapeController
 ///
-class OrientationManager {
+final class OrientationManager {
     
     /// singlton only usage because of AppDelegate
     static let shared = OrientationManager()
